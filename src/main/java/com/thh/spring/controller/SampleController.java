@@ -22,7 +22,7 @@ import java.util.ResourceBundle;
 
 
 @RestController
-@Api(tags = "swagger相关")
+@Api(tags = "swagger测试")
 public class SampleController {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
