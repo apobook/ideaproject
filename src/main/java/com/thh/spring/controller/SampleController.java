@@ -19,7 +19,7 @@ import java.util.Map;
 
 
 @RestController
-@Api(tags = "swaggerYYYY")
+@Api(tags = "swagger解决")
 public class SampleController {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
