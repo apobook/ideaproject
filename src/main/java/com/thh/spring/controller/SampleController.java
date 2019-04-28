@@ -19,6 +19,7 @@ import java.util.Map;
 
 
 @RestController
+@Api(tags = "swagger解决")
 @Api(tags = "swagger不接")
 public class SampleController {
 
