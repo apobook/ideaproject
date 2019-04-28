@@ -1,10 +1,8 @@
 package com.thh.feign;
 
 import feign.Param;
-import feign.QueryMap;
 import feign.RequestLine;
 
-import java.util.Map;
 
 public interface HelloCilent {
 
