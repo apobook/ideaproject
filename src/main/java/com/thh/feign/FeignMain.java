@@ -3,7 +3,6 @@ package com.thh.feign;
 import feign.Feign;
 import feign.gson.GsonDecoder;
 import feign.gson.GsonEncoder;
-import feign.httpclient.ApacheHttpClient;
 
 import java.util.Arrays;
 import java.util.HashMap;
