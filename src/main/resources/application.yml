@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: springboot_test
+#  profiles:
+#    active: prod
+
+person:
+  last-name: zhangsan${random.long}
+  age: 18
+  boss: false
+  birth: 2017/08/12
+  maps: {k1: v1,k2: v2}
+  lists:
+    - lisi
+    - wangwu
+  pets:
+    name: ${person.lastName:TEST}_pig
+    age: 5
+logging:
+  level:
+    root: info
+server:
+  port: 5252
+
+# 存在互补配置
+#---
+#
+#server:
+#  port: 8081
+#spring:
+#  profiles: dev
+#---
+#server:
+#  port: 8082
+#spring:
+#  profiles: prod
